@@ -23,7 +23,13 @@ driver.find_element_by_css_selector(".twitter")
 driver.find_element_by_css_selector(".homefeatured")
 driver.find_element_by_css_selector("#contact-link")
 
-
+# xpath selectors
+driver.find_element_by_xpath("//div[@class='shopping_cart']")
+driver.find_element_by_xpath("//div[@class='shopping_cart']")
+driver.find_element_by_xpath("//input[@id='newsletter-input']")
+driver.find_element_by_xpath("//li[@class='twitter']")
+driver.find_element_by_xpath("//*[@class='homefeatured']")
+driver.find_element_by_xpath("//*[@title='Contact Us']")
 
 driver.quit()
 
