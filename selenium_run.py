@@ -15,6 +15,15 @@ driver.find_element_by_class_name("twitter")
 driver.find_element_by_class_name("homefeatured")
 driver.find_element_by_id("contact-link")
 
+# CSS selectors
+driver.find_element_by_css_selector(".logo")
+driver.find_element_by_css_selector(".shopping_cart")
+driver.find_element_by_css_selector("#newsletter-input")
+driver.find_element_by_css_selector(".twitter")
+driver.find_element_by_css_selector(".homefeatured")
+driver.find_element_by_css_selector("#contact-link")
+
+
 
 driver.quit()
 
