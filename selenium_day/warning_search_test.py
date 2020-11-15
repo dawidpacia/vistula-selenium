@@ -1,7 +1,7 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium import webdriver
+from selenium_day.webdriver.common.by import By
+from selenium_day.webdriver.support.wait import WebDriverWait
+from selenium_day.webdriver.support import expected_conditions as EC
+from selenium_day import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 options = webdriver.ChromeOptions()

@@ -1,5 +1,5 @@
-from selenium.pages import LoginPage
-from selenium.pages import MainPage
+from selenium_day.pages import LoginPage
+from selenium_day.pages import MainPage
 
 
 def test_login(driver):

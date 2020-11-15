@@ -1,5 +1,5 @@
-from selenium.webdriver.common.by import By
-from selenium.pages import BasePage
+from selenium_day.webdriver.common.by import By
+from selenium_day.pages import BasePage
 
 
 class MainPage(BasePage):
