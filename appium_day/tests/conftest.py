@@ -3,8 +3,6 @@ import os
 import pytest
 from appium import webdriver
 
-from pages.home_page import HomePage
-
 
 @pytest.fixture()
 def driver(request):
@@ -22,5 +20,4 @@ def driver(request):
     driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 
     request.addfinalizer(close_driver)
-
     return driver
